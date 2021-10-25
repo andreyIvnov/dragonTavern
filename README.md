@@ -25,3 +25,30 @@ Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To u
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+
+
+
+
+
+
+#############################################################################################
+ng s -o === for testing of first app (geting from git)
+
+was adding pakage:
+    - ng add @angular/material
+    - Bootstram href
+
+
+adding a NAVBAR component
+
+<app-navbar> and <router-outlet> added in app.component.html
+
+ReactiveFormsModule added 
+
+adding ABOUT component 
+
+testing a routing to about component whit about button on NAVBAR -- cheakd
+
+{{{{{{{{{{{{{{stopped on navbar.component.html }}}}}}}}}}}}}}
+
+BLA bla bla
