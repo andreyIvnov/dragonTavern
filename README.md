@@ -49,6 +49,16 @@ adding ABOUT component
 
 testing a routing to about component whit about button on NAVBAR -- cheakd
 
-{{{{{{{{{{{{{{stopped on navbar.component.html }}}}}}}}}}}}}}
+25/10/2021 {{{{{{{{{{{{{{stopped on navbar.component.html }}}}}}}}}}}}}}
+        
 
-BLA bla bla
+adding HOME componnet and LOGIN component + routes in <app-routing.module.ts>
+added email form on login component
+
+
+The UI of LOGIN component is ready 
+        - email form is added
+        - password form is added
+Was added a error message function for required forms in login.component.ts 
+
+---- adding a Home component UI
