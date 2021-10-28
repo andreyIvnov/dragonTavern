@@ -49,7 +49,7 @@ adding ABOUT component
 
 testing a routing to about component whit about button on NAVBAR -- cheakd
 
-25/10/2021 {{{{{{{{{{{{{{stopped on navbar.component.html }}}}}}}}}}}}}}
+ {{{{{{{{{{{{{{stopped on navbar.component.html }}}}}}}}}}}}}}
         
 
 adding HOME componnet and LOGIN component + routes in <app-routing.module.ts>
@@ -61,4 +61,19 @@ The UI of LOGIN component is ready
         - password form is added
 Was added a error message function for required forms in login.component.ts 
 
----- adding a Home component UI
+
+Added a GitHubUsers MODULE
+    added a module (not component) for LAZY Loading testing 
+    added a routing to Github module from app-routing + CanActivate of Route Guard + Provider: [GitHubUsersGuard]
+Get GITHUB users service from free API to httpGET testing
+    url = "https://api.github.com/users"
+    get users from github API by using a Observable<any>
+
+Get All users list on git-hub-users module by getGitHubUsers() function on git-hub-users.component.ts
+    + cheak by console.log(data) --- V cheaked
+
+Add a one of cards from matirial to show a users List on git-hub-users.component.html
+    - using of *ngFor to run all of them 
+
+NEXT STEPS:
+    - next page after a login

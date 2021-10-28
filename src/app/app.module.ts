@@ -14,6 +14,9 @@ import { HomeComponent } from './home/home.component';
 import {MatInputModule} from '@angular/material/input'
 import {MatFormFieldModule} from '@angular/material/form-field';
 import {MatIconModule} from '@angular/material/icon';
+import {MatButtonModule} from '@angular/material/button';
+import { HttpClientModule } from '@angular/common/http';
+import {MatCardModule} from '@angular/material/card';
 
 @NgModule({
   declarations: [
@@ -28,9 +31,13 @@ import {MatIconModule} from '@angular/material/icon';
     AppRoutingModule,
     BrowserAnimationsModule,
     ReactiveFormsModule,
+    HttpClientModule,
+    
     MatInputModule,
     MatFormFieldModule,
-    MatIconModule
+    MatIconModule,
+    MatButtonModule,
+    MatCardModule
   ],
   providers: [],
   bootstrap: [AppComponent]
