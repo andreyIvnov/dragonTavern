@@ -23,7 +23,7 @@ export class GitHubUsersComponent implements OnInit {
 
   getGitHubUsers()
   {
-    this.gitHubUsersService.getData().subscribe((data)=>
+    this.gitHubUsersService.getUsers().subscribe((data)=>
     {
       console.log(data);
       this.users = data

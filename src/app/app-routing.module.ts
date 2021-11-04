@@ -11,7 +11,8 @@ const routes: Routes = [
   {path:'home', component:HomeComponent},
   { path: 'gitHubUsers', loadChildren: () => import('./git-hub-users/git-hub-users.module').then(m => m.GitHubUsersModule),
     canActivate:[GitHubUsersGuard]
-  }
+  },
+  { path: 'heroesTutorial', loadChildren: () => import('./heroes-tutorial/heroes-tutorial.module').then(m => m.HeroesTutorialModule) }
 ];
 
 @NgModule({

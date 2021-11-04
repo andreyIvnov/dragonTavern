@@ -9,7 +9,7 @@ export class GitHubUsersGuard implements CanActivate
         console.log('Must be some popUp whit quastion....');
 
 
-        return confirm('You are gona see some github users list!')
+        return confirm('Its RouteGuard test \n You are gona see some github users list!')
     }
 
 }
