@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { HEROES } from '../mock-heroes';
 import { Hero } from '../_interfaces/hero';
 
 @Component({
@@ -7,6 +8,8 @@ import { Hero } from '../_interfaces/hero';
   styleUrls: ['./heroes.component.css']
 })
 export class HeroesComponent implements OnInit {
+
+  heroes = HEROES
 
   hero : Hero = {
     id: 1,
