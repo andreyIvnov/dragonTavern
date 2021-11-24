@@ -24,7 +24,7 @@ import {MatCardModule} from '@angular/material/card';
     NavbarComponent,
     AboutComponent,
     LoginComponent,
-    HomeComponent
+    HomeComponent,
   ],
   imports: [
     BrowserModule,
